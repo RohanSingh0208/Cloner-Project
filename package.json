@@ -1,0 +1,26 @@
+{
+  "name": "scaler-website-cloner-agent",
+  "version": "1.0.0",
+  "description": "A conversational CLI agent that clones the Scaler Academy website using AI-powered reasoning and tool execution",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "cli-agent",
+    "website-cloner",
+    "ai-agent",
+    "scaler",
+    "openai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.4.7",
+    "openai": "^4.77.0",
+    "readline": "^1.3.0"
+  }
+}
