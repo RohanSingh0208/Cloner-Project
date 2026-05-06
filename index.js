@@ -16,8 +16,8 @@ import readline from "readline";
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 // Model to use — can be overridden via .env
-// Options: gemini-2.5-flash, gemini-2.0-flash, gemini-1.5-flash
-const MODEL_NAME = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+// Options: gemini-2.5-flash-lite, gemini-2.5-flash, gemini-2.0-flash, gemini-1.5-flash
+const MODEL_NAME = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
 
 // ── Colour helpers for terminal output ──────────────────────
 const COLORS = {
